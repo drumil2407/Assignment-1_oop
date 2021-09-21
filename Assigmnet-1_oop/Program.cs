@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 namespace Assignment_1_Dr
 {
-
+	// i am confused in all methods and i was unable to perform task, can you please provide solution of this program 
+	// i added github repository in last minute.
 	class Program
 	{
 		static void Main(string[] args)
@@ -38,7 +39,7 @@ namespace Assignment_1_Dr
 
 		public static string[] PickSomeCards(int numCards)
 		{
-			//
+			//this method calls randomvalue method and randomsuit and print output
 			int k;
 			string[] set = new string[1];
 			for (k = 0; k < set.Length; k++)
@@ -55,6 +56,7 @@ namespace Assignment_1_Dr
 
 		private static string[] RandomValue()
 		{
+			//this method prints all faces
 			int randomV;
 			String[] RValue = { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
 			randomV = random.Next(RValue.Length);
@@ -76,6 +78,7 @@ namespace Assignment_1_Dr
 
 		private static string[] RandomSuit()
 		{
+			//this method prints all suits
 			int randomS;
 			String[] RSuit = { "Hearts", "Clubs", "Diamonds", "Spades" };
 			randomS = random.Next(RSuit.Length);
